@@ -1,0 +1,168 @@
+html,
+body {
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+#addPs {
+    display: none;
+}
+#map-canvas {
+    height: 590px;
+    width:  58%;
+    border: 1px solid black;
+    float: right;
+    margin-top: 20px;
+
+}
+
+.container {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#search, #add, #yourPs, #reservePs {
+    width: 100%;
+}
+
+#searchTextField, #addressSearch, #addressSearchYours, #addressPs{
+    width: 75%;
+}
+div.scroll  {
+    width:100%;
+    overflow-y:scroll;
+    height:200px;
+}
+table {border-collapse:collapse;  }
+
+/*table #tbDetails tbody {*/
+    /*overflow: auto;*/
+    /*height: 150px;*/
+/*}*/
+
+/*thead, tbody { display: block; width: 100%;}*/
+
+/*tbody {*/
+    /*display: table;*/
+    /*height: 100px;       !* Just for the demo          *!*/
+    /*overflow-y: auto;    !* Trigger vertical scroll    *!*/
+    /**/
+    /*width: 100%;*/
+/*}*/
+
+fieldset {
+    /*border: 1px groove #ddd !important;*/
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    width: 40%;
+}
+
+legend {
+    font-size: 2.2em !important;
+    font-width: 600px;
+}
+
+label {
+    font-size: large;
+}
+
+[name=maxDistance],[name=spotNumber], [name=yourSpotNumber] {
+    width: 100px;
+    display: inline;
+}
+
+/*#search {*/
+    /*float: left;*/
+/*}*/
+
+/*#searchTextField {*/
+    /*width: 300px;*/
+/*}*/
+
+/*fieldset {*/
+    /*!*border: 1px groove #ddd !important;*!*/
+    /*padding: 0 1.4em 1.4em 1.4em !important;*/
+    /*margin: 0 0 1.5em 0 !important;*/
+    /*width: 40%;*/
+/*}*/
+
+/*legend {*/
+    /*font-size: 2.2em !important;*/
+    /*font-width: 600px;*/
+/*}*/
+
+/*label {*/
+    /*font-size: large;*/
+/*}*/
+
+
+
+div.bhoechie-tab-container{
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 0 !important;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    border:1px solid #ddd;
+    margin-top: 20px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    background-clip: padding-box;
+    opacity: 0.97;
+    filter: alpha(opacity=97);
+    width: 40%;
+    float: left;
+}
+div.bhoechie-tab-menu{
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group{
+    margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a{
+    margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a .glyphicon,
+div.bhoechie-tab-menu div.list-group>a .fa {
+    color: #5A55A3;
+}
+div.bhoechie-tab-menu div.list-group>a:first-child{
+    border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a:last-child{
+    border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a.active,
+div.bhoechie-tab-menu div.list-group>a.active .glyphicon,
+div.bhoechie-tab-menu div.list-group>a.active .fa{
+    background-color: #5A55A3;
+    color: #ffffff;
+}
+div.bhoechie-tab-menu div.list-group>a.active:after{
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -13px;
+    border-left: 0;
+    border-bottom: 13px solid transparent;
+    border-top: 13px solid transparent;
+    border-left: 10px solid #5A55A3;
+}
+
+div.bhoechie-tab-content{
+    background-color: #ffffff;
+    /* border: 1px solid #eeeeee; */
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active){
+    display: none;
+}
